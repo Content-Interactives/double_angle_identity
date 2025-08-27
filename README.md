@@ -1,12 +1,40 @@
-# React + Vite
+# Double Angle Identity
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The **Double Angle Identity** interactive helps students explore trigonometric double-angle identities and see how they apply to different values of sine, cosine, and tangent.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Interactive
 
-## Expanding the ESLint configuration
+Try it out here:  
+👉 [https://content-interactives.github.io/double_angle_identity](https://content-interactives.github.io/double_angle_identity)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🌐 Where This Interactive Is Being Used
+
+This interactive is currently featured in the following locations:
+
+- <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/5d12571f-8e12-4441-98ab-c0bc94069a96" /> **CK-12 Intent Response**  
+  - 👉 PRODUCTION: PENDING  
+  - 👉 MASTER: PENDING  
+- 📘 **CK-12 Flexbooks**
+  - 👉 PENDING
+
+---
+
+## 📚 Standards & Subjects
+
+This interactive aligns with the following topics and standards:
+
+- **📂 Subject Area**: High School Math (Trigonometry)  
+- **🧮 Topic**: Double Angle Identities  
+- **📏 Common Core**:  
+  - HSF-TF.C.9 – Prove the addition and subtraction formulas for sine, cosine, and tangent and use them to solve problems.
+
+---
+
+## 🛠️ Developer Notes
+
+- Built with: React, HTML, CSS, JavaScript  
+- Deployed via GitHub Pages
