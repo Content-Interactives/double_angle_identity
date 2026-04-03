@@ -1,40 +1,36 @@
 # Double Angle Identity
 
-The **Double Angle Identity** interactive helps students explore trigonometric double-angle identities and see how they apply to different values of sine, cosine, and tangent.
+React SPA for exploring trigonometric double-angle identities (sin, cos, tan) with interactive inputs and feedback.
 
----
+**Live:** [https://content-interactives.github.io/double_angle_identity](https://content-interactives.github.io/double_angle_identity)
 
-## 🔗 Live Interactive
+Curriculum alignment: [Standards.md](Standards.md).
 
-Try it out here:  
-👉 [https://content-interactives.github.io/double_angle_identity](https://content-interactives.github.io/double_angle_identity)
+## Stack
 
----
+- React 19, Vite
+- Tailwind CSS, PostCSS
+- GitHub Pages via `gh-pages`
 
-## 🌐 Where This Interactive Is Being Used
+## Setup
 
-This interactive is currently featured in the following locations:
+```bash
+npm install
+npm run dev
+```
 
-- <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/5d12571f-8e12-4441-98ab-c0bc94069a96" /> **CK-12 Intent Response**  
-  - 👉 PRODUCTION: PENDING  
-  - 👉 MASTER: PENDING  
-- 📘 **CK-12 Flexbooks**
-  - 👉 PENDING
+## Scripts
 
----
+| Command | Description |
+|--------|-------------|
+| `npm run dev` | Development server |
+| `npm run build` | Production build |
+| `npm run preview` | Preview `dist/` |
+| `npm run lint` | ESLint |
+| `npm run deploy` | Build and deploy to GitHub Pages |
 
-## 📚 Standards & Subjects
+## Configuration
 
-This interactive aligns with the following topics and standards:
+`vite.config.js`: `base: '/double_angle_identity/'` must match the Pages project path.
 
-- **📂 Subject Area**: High School Math (Trigonometry)  
-- **🧮 Topic**: Double Angle Identities  
-- **📏 Common Core**:  
-  - HSF-TF.C.9 – Prove the addition and subtraction formulas for sine, cosine, and tangent and use them to solve problems.
-
----
-
-## 🛠️ Developer Notes
-
-- Built with: React, HTML, CSS, JavaScript  
-- Deployed via GitHub Pages
+Primary UI: `src/` (e.g. `App.jsx`, components).
